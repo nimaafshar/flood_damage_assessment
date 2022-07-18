@@ -10,6 +10,7 @@
 
 - [Xivew 2 Dataset MetaData Description](./res/xBD_Metadata_Explanation.pdf)
 
+- [XView 2 Challenge: Part 3: Exploring the Dataset](https://medium.com/analytics-vidhya/xview-2-challenge-part-3-exploring-the-dataset-ec924303b0df)
 
 
 
@@ -21,4 +22,3 @@
 - [xview website](https://xview2.org/download-links)
 - [object detection notebook example](https://databricks.com/notebooks/1_data_eng_xview_object_detection.html)
 
-- [medium part 3](https://medium.com/analytics-vidhya/xview-2-challenge-part-3-exploring-the-dataset-ec924303b0df)
