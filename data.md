@@ -68,3 +68,9 @@ GSD
 ۲۰ گیگابایت حجم دارند ولی داده‌های روی سایت در یک قسمت
 ۵۰
 گیگ حجم دارند.
+
+## Folder Structre 
+- The "train" dataset contains 2799 pairs of high-resolution RGB satellite imagery in PNG format, provided as a 7.8 GB GZIP archive.
+
+-  After you unpack the archive, you should see three directories: images, labels, and targets. Images are RGB PNG images. Labels are JSON files with building annotations (polygons in WKT format) and metadata for the given view. 
+- Targets are pixelwise ground truth in the format specified for the xView2 Challenge, which were derived from the underlying polygons.
