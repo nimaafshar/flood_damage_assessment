@@ -77,12 +77,12 @@
         - some sort of attention module
         - In it’s most basic form this could mean adding a single parameter to each channel and giving it a linear scalar how relevant each one is.
         - Here they use fully connected layers to build SE modules but in the code they use *Conv2D* to build SE modules
-    - Paper Link :page_facing_up: : [Squeeze-and-Excitation Networks Paper](https://arxiv.org/pdf/1709.01507.pdf)
+    - :page_facing_up:[Squeeze-and-Excitation Networks Paper](https://arxiv.org/pdf/1709.01507.pdf)
     - [ ] [Detailed Explaination for above paper](https://blog.paperspace.com/channel-attention-squeeze-and-excitation-networks/)
 
 - *SCSE Module*
     ![cSE,sSE,SCSE Modules](./res/SCSEModule.png)
-    - Link to Paper :page_facing_up: :[Concurrent Spatial and Channel ‘Squeeze &
+    - :page_facing_up: [Concurrent Spatial and Channel ‘Squeeze &
 Excitation’ in Fully Convolutional Networks](https://arxiv.org/pdf/1803.02579.pdf)
     - Detailed Explaination of above paper: [Concurrent Spatial and Channel Squeeze & Excitation (scSE) Nets](https://blog.paperspace.com/scse-nets/)
 
