@@ -101,7 +101,6 @@ Spatial and Channel ‘Squeeze & Excitation’ Blocks](https://arxiv.org/pdf/180
     - Adding SE blocks to encoder and decoder layers is recommended compared to adding them to only encoder/decoder layers or classification layer
 
 - [ ] What is Deep Residual Learning?
-- [ ] What are bottlenecks in CNN Models
 - [ ] Resnet architecture
 - [ ] Resnext architecture
 
