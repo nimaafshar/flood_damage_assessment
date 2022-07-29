@@ -91,8 +91,6 @@ Excitation’ in Fully Convolutional Networks](https://arxiv.org/pdf/1803.02579.
 
 - `learn2learn` [repository](https://github.com/learnables/learn2learn) (mentioned techniques)
 
-- [object detection notebook example](https://databricks.com/notebooks/1_data_eng_xview_object_detection.html)
-
 - other methodologies
 
 - :page_facing_up: [Recalibrating Fully Convolutional Networks with
