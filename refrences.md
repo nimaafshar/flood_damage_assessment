@@ -57,6 +57,7 @@
 
     - Its a baseline repository so it contains no useful methodology and it's models have low performance.
 
+## Methodology
 - [XView2 Challenge First Places Solution Repository](https://github.com/DIUx-xView/xView2_first_place)
     - Counts `un-classified` damage type as `no-damage`
     - **Important:** They provide a link to model weights on amazon s3. but the link returns *Access Denied* maybe they give us the correct link if we contact them by email.
@@ -78,7 +79,12 @@
         - Here they use fully connected layers to build SE modules but in the code they use *Conv2D* to build SE modules
     - Paper Link :page_facing_up: : [Squeeze-and-Excitation Networks Paper](https://arxiv.org/pdf/1709.01507.pdf)
     - [ ] [Detailed Explaination for above paper](https://blog.paperspace.com/channel-attention-squeeze-and-excitation-networks/)
-    
+
+- *SCSE Module*
+    ![cSE,sSE,SCSE Modules](./res/SCSEModule.png)
+    - Link to Paper :page_facing_up: :[Concurrent Spatial and Channel ‘Squeeze &
+Excitation’ in Fully Convolutional Networks](https://arxiv.org/pdf/1803.02579.pdf)
+    - Detailed Explaination of above paper: [Concurrent Spatial and Channel Squeeze & Excitation (scSE) Nets](https://blog.paperspace.com/scse-nets/)
 
 
 ## TO READ
@@ -94,10 +100,7 @@ Spatial and Channel ‘Squeeze & Excitation’ Blocks](https://arxiv.org/pdf/180
     
     according to this paper concat is better in SCSE Module
 
-- *SCSE Module*
-    ![cSE,sSE,SCSE Modules](./res/SCSEModule.png)
-    - Link to Paper :page_facing_up: :[Concurrent Spatial and Channel ‘Squeeze &
-Excitation’ in Fully Convolutional Networks](https://arxiv.org/pdf/1803.02579.pdf)
-    - [ ] Detailed Explaination of above paper: [Concurrent Spatial and Channel Squeeze & Excitation (scSE) Nets](https://blog.paperspace.com/scse-nets/)
-
-- What is Deep Residual Learning?
+- [ ] What is Deep Residual Learning?
+- [ ] What are bottlenecks in CNN Models
+- [ ] Resnet architecture
+- [ ] Resnext architecture
