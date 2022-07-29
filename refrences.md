@@ -66,6 +66,10 @@
     - Predictions averaged with equal coefficients for both localization and classification models separately.
     - Classification models initilized using weights from corresponding localization model and fold number. They are Siamese Neural Networks with whole localization model shared between "pre" and "post" input images. Features from last Decoder layer combined together for classification. Pretrained weights are not frozen. Using pretrained weights from localization models allowed to train classification models much faster and to have better accuracy. Features from "pre" and "post" images connected at the very end of the Decoder in bottleneck part, this helping not to overfit and get better generalizing model.
 
+
+- [An Introduction to different Types of Convolutions in Deep Learning](https://towardsdatascience.com/types-of-convolutions-in-deep-learning-717013397f4d)
+    - depthwise separable convolution are used because of the hypothesis that spatial and depthwise information can be decoupled. for example in Xception model.
+
 ## TO READ
 
 - `learn2learn` [repository](https://github.com/learnables/learn2learn) (mentioned techniques)
@@ -84,5 +88,3 @@ Spatial and Channel ‘Squeeze & Excitation’ Blocks](https://arxiv.org/pdf/180
 - *Squeeze-and-Excitation* networks
     - [Squeeze-and-Excitation Networks](https://towardsdatascience.com/squeeze-and-excitation-networks-9ef5e71eacd7)
     - [Squeeze-and-Excitation Networks Paper](https://arxiv.org/pdf/1709.01507.pdf)
-
-- [An Introduction to different Types of Convolutions in Deep Learning](https://towardsdatascience.com/types-of-convolutions-in-deep-learning-717013397f4d)
