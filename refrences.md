@@ -74,7 +74,15 @@
 
 - other methodologies
 
+- [Recalibrating Fully Convolutional Networks with
+Spatial and Channel ‘Squeeze & Excitation’ Blocks](https://arxiv.org/pdf/1808.08127.pdf) 
+
+    according to this paper concat is better in SE Module
+
+- what is SCSE module?
+
 - *Squeeze-and-Excitation* networks
-    - [Recalibrating Fully Convolutional Networks with
-Spatial and Channel ‘Squeeze & Excitation’ Blocks](https://arxiv.org/pdf/1808.08127.pdf)
     - [Squeeze-and-Excitation Networks](https://towardsdatascience.com/squeeze-and-excitation-networks-9ef5e71eacd7)
+    - [Squeeze-and-Excitation Networks Paper](https://arxiv.org/pdf/1709.01507.pdf)
+
+- [An Introduction to different Types of Convolutions in Deep Learning](https://towardsdatascience.com/types-of-convolutions-in-deep-learning-717013397f4d)
