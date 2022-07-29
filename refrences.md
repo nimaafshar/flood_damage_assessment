@@ -66,7 +66,7 @@
     - Morphological dilation with 5*5 kernel applied to classification masks. Dilated masks made predictions more "bold" - this improved accuracy on borders and also helped with shifts and nadirs.
     - Predictions averaged with equal coefficients for both localization and classification models separately.
     - Classification models initilized using weights from corresponding localization model and fold number. They are Siamese Neural Networks with whole localization model shared between "pre" and "post" input images. Features from last Decoder layer combined together for classification. Pretrained weights are not frozen. Using pretrained weights from localization models allowed to train classification models much faster and to have better accuracy. Features from "pre" and "post" images connected at the very end of the Decoder in bottleneck part, this helping not to overfit and get better generalizing model.
-
+    - The code for *SENet* is likely borrowed from [this repository](https://github.com/TencentYoutuResearch/PersonReID-YouReID), but some modules like *SCSE Module* are new.
 
 - [An Introduction to different Types of Convolutions in Deep Learning](https://towardsdatascience.com/types-of-convolutions-in-deep-learning-717013397f4d)
     - depthwise separable convolution are used because of the hypothesis that spatial and depthwise information can be decoupled. for example in Xception model.
