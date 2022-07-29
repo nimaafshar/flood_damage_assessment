@@ -78,6 +78,7 @@
         - In it’s most basic form this could mean adding a single parameter to each channel and giving it a linear scalar how relevant each one is.
         - Here they use fully connected layers to build SE modules but in the code they use *Conv2D* to build SE modules
     - :page_facing_up:[Squeeze-and-Excitation Networks Paper](https://arxiv.org/pdf/1709.01507.pdf)
+    - [A github implementation](https://github.com/ai-med/squeeze_and_excitation)
     - [ ] [Detailed Explaination for above paper](https://blog.paperspace.com/channel-attention-squeeze-and-excitation-networks/)
 
 - *SCSE Module*
@@ -89,16 +90,19 @@ Excitation’ in Fully Convolutional Networks](https://arxiv.org/pdf/1803.02579.
 
 ## TO READ
 
-- `learn2learn` [repository](https://github.com/learnables/learn2learn) (mentioned techniques)
+- `learn2learn` [repository](https://github.com/learnables/learn2learn) (mentioned techniques about meta-learning)
 
 - other methodologies
+    - :page_facing_up: [Building Disaster Damage Assessment in Satellite Imagery with Multi-Temporal Fusion](https://arxiv.org/pdf/2004.05525.pdf)
 
-- :page_facing_up: [Recalibrating Fully Convolutional Networks with
+- [ ] :page_facing_up: [Recalibrating Fully Convolutional Networks with
 Spatial and Channel ‘Squeeze & Excitation’ Blocks](https://arxiv.org/pdf/1808.08127.pdf) 
-    
-    according to this paper concat is better in SCSE Module
+    - *Concatenation* and *Max-Out* are better strategies in last part of SCSE modules compared to *Addition* or *Multiplication*
+    - Adding SE blocks to encoder and decoder layers is recommended compared to adding them to only encoder/decoder layers or classification layer
 
 - [ ] What is Deep Residual Learning?
 - [ ] What are bottlenecks in CNN Models
 - [ ] Resnet architecture
 - [ ] Resnext architecture
+
+- [ ] [Squeeze and Excitation Networks Explained with PyTorch Implementation](https://amaarora.github.io/2020/07/24/SeNet.html)
