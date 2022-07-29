@@ -73,3 +73,8 @@
 - [object detection notebook example](https://databricks.com/notebooks/1_data_eng_xview_object_detection.html)
 
 - other methodologies
+
+- *Squeeze-and-Excitation* networks
+    - [Recalibrating Fully Convolutional Networks with
+Spatial and Channel ‘Squeeze & Excitation’ Blocks](https://arxiv.org/pdf/1808.08127.pdf)
+    - [Squeeze-and-Excitation Networks](https://towardsdatascience.com/squeeze-and-excitation-networks-9ef5e71eacd7)
