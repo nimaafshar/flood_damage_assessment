@@ -70,6 +70,16 @@
 - [An Introduction to different Types of Convolutions in Deep Learning](https://towardsdatascience.com/types-of-convolutions-in-deep-learning-717013397f4d)
     - depthwise separable convolution are used because of the hypothesis that spatial and depthwise information can be decoupled. for example in Xception model.
 
+- *Squeeze-and-Excitation (SE)* networks
+    ![SE Module](./res/SEModule.jpg)
+    - [Squeeze-and-Excitation Networks](https://towardsdatascience.com/squeeze-and-excitation-networks-9ef5e71eacd7)
+        - some sort of attention module
+        - In it’s most basic form this could mean adding a single parameter to each channel and giving it a linear scalar how relevant each one is.
+        - Here they use fully connected layers to build SE modules but in the code they use *Conv2D* to build SE modules
+    - Paper Link :page_facing_up: : [Squeeze-and-Excitation Networks Paper](https://arxiv.org/pdf/1709.01507.pdf)
+    
+
+
 ## TO READ
 
 - `learn2learn` [repository](https://github.com/learnables/learn2learn) (mentioned techniques)
@@ -78,13 +88,12 @@
 
 - other methodologies
 
-- [Recalibrating Fully Convolutional Networks with
+- :page_facing_up: [Recalibrating Fully Convolutional Networks with
 Spatial and Channel ‘Squeeze & Excitation’ Blocks](https://arxiv.org/pdf/1808.08127.pdf) 
-
-    according to this paper concat is better in SE Module
+    
+    according to this paper concat is better in SCSE Module
 
 - what is SCSE module?
-
-- *Squeeze-and-Excitation* networks
-    - [Squeeze-and-Excitation Networks](https://towardsdatascience.com/squeeze-and-excitation-networks-9ef5e71eacd7)
-    - [Squeeze-and-Excitation Networks Paper](https://arxiv.org/pdf/1709.01507.pdf)
+    - [Concurrent Spatial and Channel Squeeze & Excitation (scSE) Nets](https://blog.paperspace.com/scse-nets/)
+    - Link to Paper :page_facing_up: :[Concurrent Spatial and Channel ‘Squeeze &
+Excitation’ in Fully Convolutional Networks](https://arxiv.org/pdf/1803.02579.pdf)
