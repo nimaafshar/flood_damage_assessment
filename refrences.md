@@ -119,3 +119,5 @@ Image Segmentation](https://arxiv.org/pdf/1505.04597.pdf)
 - [ ] [SpaceNet 4: Off-Nadir Building Footprint Detection Challenge](https://github.com/SpaceNetChallenge/SpaceNet_Off_Nadir_Solutions/tree/master/cannab)
 
 - [ ] [Squeeze and Excitation Networks Explained with PyTorch Implementation](https://amaarora.github.io/2020/07/24/SeNet.html)
+
+- [ ] Localization Overview
