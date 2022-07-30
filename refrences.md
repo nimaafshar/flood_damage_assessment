@@ -87,6 +87,12 @@
 Excitation’ in Fully Convolutional Networks](https://arxiv.org/pdf/1803.02579.pdf)
     - Detailed Explaination of above paper: [Concurrent Spatial and Channel Squeeze & Excitation (scSE) Nets](https://blog.paperspace.com/scse-nets/)
 
+- What is a Deep Residual Network?
+    - [Understand Deep Residual Networks — a simple, modular learning framework that has redefined state-of-the-art](https://medium.com/@waya.ai/deep-residual-learning-9610bb62c355)
+    - [Introduction to ResNets](https://towardsdatascience.com/introduction-to-resnets-c0a830a288a4)
+
+- Resnet architecture
+    - :page_facing_up: [Deep Residual Learning for Image Recognition](https://arxiv.org/pdf/1512.03385.pdf)
 
 ## TO READ
 
@@ -100,8 +106,16 @@ Spatial and Channel ‘Squeeze & Excitation’ Blocks](https://arxiv.org/pdf/180
     - *Concatenation* and *Max-Out* are better strategies in last part of SCSE modules compared to *Addition* or *Multiplication*
     - Adding SE blocks to encoder and decoder layers is recommended compared to adding them to only encoder/decoder layers or classification layer
 
-- [ ] What is Deep Residual Learning?
-- [ ] Resnet architecture
+
 - [ ] Resnext architecture
+    - :page_facing_up: [Aggregated Residual Transformations for Deep Neural Networks](https://arxiv.org/pdf/1611.05431.pdf)
+
+- [ ] Dual Path Networks Architecture
+
+- [ ] Unet Architechture
+    - :page_facing_up: [U-Net: Convolutional Networks for Biomedical
+Image Segmentation](https://arxiv.org/pdf/1505.04597.pdf)
+
+- [ ] [SpaceNet 4: Off-Nadir Building Footprint Detection Challenge](https://github.com/SpaceNetChallenge/SpaceNet_Off_Nadir_Solutions/tree/master/cannab)
 
 - [ ] [Squeeze and Excitation Networks Explained with PyTorch Implementation](https://amaarora.github.io/2020/07/24/SeNet.html)
