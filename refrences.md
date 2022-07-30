@@ -60,7 +60,7 @@
 ## Methodology
 - [XView2 Challenge First Places Solution Repository](https://github.com/DIUx-xView/xView2_first_place)
     - Counts `un-classified` damage type as `no-damage`
-    - **Important:** They provide a link to model weights on amazon s3. but the link returns *Access Denied* maybe they give us the correct link if we contact them by email.
+    - **Important:** trained model weights are available at [github.com/DIUx-xView/xView2_first_place/releases/tag/final](https://github.com/DIUx-xView/xView2_first_place/releases/tag/final)
     - Frist, localization models trained using only "pre" images to ignore this additional noise from "post" images. Simple UNet-like segmentation Encoder-Decoder Neural Network architectures used here.
     - Then, already pretrained localization models converted to classification Siamese Neural Network. So, "pre" and "post" images shared common weights from localization model and the features from the last Decoder layer concatenated to predict damage level for each pixel. This allowed Neural Network to look at "pre" and "post" separately in the same way and helped to ignore these shifts and different nadirs as well.
     - Morphological dilation with 5*5 kernel applied to classification masks. Dilated masks made predictions more "bold" - this improved accuracy on borders and also helped with shifts and nadirs.
