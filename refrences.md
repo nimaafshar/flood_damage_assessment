@@ -79,7 +79,7 @@
         - Here they use fully connected layers to build SE modules but in the code they use *Conv2D* to build SE modules
     - :page_facing_up:[Squeeze-and-Excitation Networks Paper](https://arxiv.org/pdf/1709.01507.pdf)
     - [A github implementation](https://github.com/ai-med/squeeze_and_excitation)
-    - [ ] [Detailed Explaination for above paper](https://blog.paperspace.com/channel-attention-squeeze-and-excitation-networks/)
+    - [Detailed Explaination for above paper](https://blog.paperspace.com/channel-attention-squeeze-and-excitation-networks/)
 
 - *SCSE Module*
     ![cSE,sSE,SCSE Modules](./res/SCSEModule.png)
@@ -109,6 +109,8 @@ Spatial and Channel ‘Squeeze & Excitation’ Blocks](https://arxiv.org/pdf/180
 
 - [ ] Resnext architecture
     - :page_facing_up: [Aggregated Residual Transformations for Deep Neural Networks](https://arxiv.org/pdf/1611.05431.pdf)
+    - [Review: ResNeXt — 1st Runner Up in ILSVRC 2016 (Image Classification)](https://towardsdatascience.com/review-resnext-1st-runner-up-of-ilsvrc-2016-image-classification-15d7f17b42ac)
+    - [A Review of Popular Deep Learning Architectures: DenseNet, ResNeXt, MnasNet, and ShuffleNet v2](https://blog.paperspace.com/popular-deep-learning-architectures-densenet-mnasnet-shufflenet/)
 
 - [ ] Dual Path Networks Architecture
 
