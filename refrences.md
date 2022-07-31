@@ -94,6 +94,18 @@ Excitation’ in Fully Convolutional Networks](https://arxiv.org/pdf/1803.02579.
 - Resnet architecture
     - :page_facing_up: [Deep Residual Learning for Image Recognition](https://arxiv.org/pdf/1512.03385.pdf)
 
+- Resnext architecture
+    - :page_facing_up: [Aggregated Residual Transformations for Deep Neural Networks](https://arxiv.org/pdf/1611.05431.pdf)
+    - [Review: ResNeXt — 1st Runner Up in ILSVRC 2016 (Image Classification)](https://towardsdatascience.com/review-resnext-1st-runner-up-of-ilsvrc-2016-image-classification-15d7f17b42ac)
+    - [A Review of Popular Deep Learning Architectures: DenseNet, ResNeXt, MnasNet, and ShuffleNet v2](https://blog.paperspace.com/popular-deep-learning-architectures-densenet-mnasnet-shufflenet/)
+
+-  Localization Overview
+    - Intersection over Union
+    - YOLO model
+    - Sliding Windows algorithm
+    - Anchor boxes
+    - Region Proposals (R-CNN, Fast R-CNN, Faster R-CNN)
+
 ## TO READ
 
 - `learn2learn` [repository](https://github.com/learnables/learn2learn) (mentioned techniques about meta-learning)
@@ -107,10 +119,6 @@ Spatial and Channel ‘Squeeze & Excitation’ Blocks](https://arxiv.org/pdf/180
     - Adding SE blocks to encoder and decoder layers is recommended compared to adding them to only encoder/decoder layers or classification layer
 
 
-- Resnext architecture
-    - [ ] :page_facing_up: [Aggregated Residual Transformations for Deep Neural Networks](https://arxiv.org/pdf/1611.05431.pdf)
-    - [ ] [Review: ResNeXt — 1st Runner Up in ILSVRC 2016 (Image Classification)](https://towardsdatascience.com/review-resnext-1st-runner-up-of-ilsvrc-2016-image-classification-15d7f17b42ac)
-    - [A Review of Popular Deep Learning Architectures: DenseNet, ResNeXt, MnasNet, and ShuffleNet v2](https://blog.paperspace.com/popular-deep-learning-architectures-densenet-mnasnet-shufflenet/)
 
 - [ ] Dual Path Networks Architecture
 
@@ -122,9 +130,3 @@ Image Segmentation](https://arxiv.org/pdf/1505.04597.pdf)
 
 - [ ] [Squeeze and Excitation Networks Explained with PyTorch Implementation](https://amaarora.github.io/2020/07/24/SeNet.html)
 
--  Localization Overview
-    - Intersection over Union
-    - YOLO model
-    - Sliding Windows algorithm
-    - Anchor boxes
-    - [ ] Region Proposals
